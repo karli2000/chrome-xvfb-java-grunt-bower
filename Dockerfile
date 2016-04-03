@@ -10,5 +10,6 @@ Xvfb :1 -screen 0 1600x1200x16 & && \
 export DISPLAY=:1.0  && \
 npm install -g grunt-cli && \
 npm install -g bower && \
+npm install -g gulp-cli && \
 apt-get clean autoclean && \
 rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
