@@ -1,4 +1,4 @@
-FROM node:5.9.1
+FROM node:6.8
 MAINTAINER Max Kossatz <max@kossatz.com>
 
 RUN \
